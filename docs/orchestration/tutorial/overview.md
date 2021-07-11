@@ -70,7 +70,7 @@ To authenticate, you'll need to create an [API Key](/orchestration/concepts/api_
 - Login to [https://cloud.prefect.io](https://cloud.prefect.io)
 - Navigate to the [API Keys page](https://cloud.prefect.io/user/keys). In the User menu in the top right corner go to **Account Settings** -> **API Keys** -> **Create An API Key**.
 - Copy the created key
-- Login with the Prefect CLI `prefect auth login --key <YOUR-KEY>`
+- Login with the Prefect CLI `prefect auth login --token <YOUR-KEY>`
 
 
 ::: tip Authentication for agents
